@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Yogagram</title>
+  <!-- <link rel="icon" type="image/x-icon" href="images/Instagram.ico"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="login_page">
+    <img src="images/front.png" id="login_img" />
+    <div id="whole_sign">
+      <div id="main_div">
+        <div id="for_flex">
+          <span id="logo_span">
+            <img src="images/7a252de00b20.png" />
+          </span>
+          <input type="text" name="username" class="inp_sign" id="user_name"
+            placeholder="Phone number,email address or username" />
+          <input type="password" name="password" id="pass_word" class="inp_sign" placeholder="Password"
+            oninput="clr(this.value)" />
+          <a id="a_log"><button id="login_but" onclick=""><b>Log In</b></button></a>
+        </div>
+        <div id="hr_ref">
+          <hr id="hr1_sign" class="hr_class_sign">
+          <p id="p_sign" _>OR</p>
+          <hr id="hr2_sign" class="hr_class_sign">
+        </div>
+        <span id="another_signin">
+          <span class="fb_flex">
+            <img src="images/fb.ico" id="fbimg_sign">
+            <p id="fb_sign">Log in with Facebook</p>
+          </span>
+          <p id="pass_err">There was a problem with logging you<br>in to Instagram. Please try again soon.</p>
+          <p id="for_pass">Forgotten your password?</p>
+        </span>
+      </div>
+      <div id="sign_up">
+        <p class="p_main">Don't have an account?</p>
+        <p id="main_sign" class="p_main"><b> Sign Up</b></p>
+      </div>
+      <p>Get the app.</p>
+      <div id="app_sign">
+        <img src="images/sign_in2.png" id="app_app" />
+        <img src="images/dign_in3.png" id="play_app" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

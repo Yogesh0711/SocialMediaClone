@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Yogagram</title>
+   
+    <link href="profile.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ddaab78adc.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- for popup -->
+    <div id="post_pop"></div>
+    <!-- header in profile -->
+    <header>
+      <!-- for header -->
+      <div id="fr_logo">
+        <img src="images/instalogo.png" id="insta_logo" />
+      </div>
+      <div id="fr_sear">
+        <input type="text" value="" name="searchbar" id="sea_box" class="place" placeholder="&#61442;   search" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html"><i class="fa-solid fa-house"></i></a></li>
+          <!-- <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li> -->
+          <li><a href="post.html"><i class="fa-regular fa-square-plus"></i></a></li>
+          <!-- <li><a href="explore.html"><i class="fa-regular fa-compass "></i></a></li> -->
+          <li><a href="#"><i class="fa-regular fa-heart "></i></i></a></li>
+          <li><a href="profile.html"><img src="" id="home_prof"></a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- posts and profile -->
+
+    <div id="pr_main">
+
+      <!-- upper info -->
+      <div id="pr_top">
+
+        <div id="pr_imgtext">
+          <!-- div for dp -->
+          <div id="pr_imgtag">
+            <img id="pr_dp"><img>
+          </div>
+
+          <!-- side texts -->
+          <div id="pr_text">
+            <h1>Yogesh_07<span id="pr_set"><button id="gearBut"><i
+                    class="fa-solid fa-gear" id="spare" style="font-size: 30px;color:gray"></i><input type="file"
+                    style="position: absolute;top: 0; left: 0; width: 100%; height: 100%; opacity: 0;" id="fileinput"
+                    accept="image/*" /></button></span>
+            </h1>
+            <br>
+            <h2><span id="span_post">5 </span><span class="pr_spclr" style="margin-left:-70px">post </span><span> 145
+                <span class="pr_spclr">followers </span></span><span id="span_folers">
+                10</span> <span id="span_foing" class="pr_spclr" onclick="changeFollowTag()"
+                style="margin-left:-70px">following
+              </span></h2>
+            <h3>Born to build an empire first cry on Nov7 techStudent </h3>
+            <!-- for following -->
+
+            <div class="follow_active" id="folowing_div"></div>
+
+          </div>
+        </div>
+        <!-- for stoy add on -->
+        <!-- <div id="pr_story">+</div> -->
+        <hr id="pr_hr">
+      </div>
+      <div id="pr_center">
+        <p id="postsProfile" onclick="postGrid()"><i class="fa-solid fa-table-cells"></i> POSTS</p>
+        <p id="bookMarkProfile" onclick="bookGrid()"><i class="fa-regular fa-bookmark"></i> SAVED</p>
+      </div>
+      <!-- down posts -->
+      <div id="pr_down">
+
+        <!-- post -->
+        <div id="pr_posts"></div>
+
+
+
+        <!-- bookmark -->
+        <div id="pr_book"></div>
+      </div>
+    </div>
+
+    <script src="profile.js"></script>
+  </body>
+
+</html>

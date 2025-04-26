@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Yogagram</title>
+        <link href="post.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ddaab78adc.js" crossorigin="anonymous"></script>
+<!--         <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    </head>
+
+    <body>
+        <!-- for popup -->
+        <div id="post_pop"></div>
+        <!-- header in profile -->
+        <header>
+            <!-- for header -->
+            <div id="fr_logo">
+                <img src="images/instalogo.png" id="insta_logo" />
+            </div>
+            <div id="fr_sear">
+                <input type="text" value="" name="searchbar" id="sea_box" class="place"
+                    placeholder="&#61442;   search" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li> -->
+                    <li><a href="post.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                    <!-- <li><a href="explore.html"><i class="fa-regular fa-compass "></i></a></li> -->
+                    <li><a href="#"><i class="fa-regular fa-heart "></i></i></a></li>
+                    <li><a href="profile.html"><img src="" id="post_prof"></a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="post_main">
+            <!-- for heading -->
+            <div id="headingText">
+                <p style="letter-spacing: 1px;font-weight: bold;" id="headingP">Create new post</p>
+            </div>
+
+            <!-- for drag image -->
+            <div id="post_forUpload" class="toUpload">
+                <img src="images/dragImg.png" style="height:70px;width:70px;">
+                <h2 style="letter-spacing: 1px;font-weight: normal;">Drag photos here</h2>
+                <button style="position: relative;" class="dragBut">
+                    <h4 style="letter-spacing: 0.5px;">Select From Computer</h4><input type="file" value=""
+                        accept="image/*" id="fileinput"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0;" />
+                </button>
+            </div>
+
+            <!-- preview image -->
+            <div id="post_FordisplayImg" style="display: none;">
+                <div id="prevImg"><img id="imageForpreview" /></div>
+                <div class="desDiv">
+                    <p style="letter-spacing: 1px;font-weight: bold;" id="headingP">Add a description</p>
+                    <!-- <input  /> -->
+                    <textarea cols="20" rows="5" style="border:dashed 2px lightgray;" style="overflow:auto;
+                                    background-color:transparent;" id="createPostText">
+                    </textarea>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="post.js"></script>
+    </body>
+
+</html>

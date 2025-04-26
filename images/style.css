@@ -1,0 +1,186 @@
+*{
+    font-family:  'Arimo',sans-serif;
+}
+body {
+    display: flex;
+    /* font-family: Instagram Sans, Helvetica Neue, Helvetica, Arial, sans-serif; */
+}
+
+#whole_sign {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login_page {
+    width: 43%;
+    display: flex;
+    margin: 10% auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#main_div {
+    border: 1px solid lightgray;
+    /* width:350px;*/
+    height: 396px;
+    /*display:flex; */
+    /* flex-direction:column; */
+    /* align-items:center; */
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+#for_flex {
+    width: 350px;
+    /* height:366px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign_up {
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 63px;
+}
+
+#logo_span {
+    margin-top: 36px;
+    margin-bottom: 19px;
+}
+
+/* #user_name{
+    
+} */
+.inp_sign {
+    font-size: 16px;
+    background-color: #fafafa;
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(233, 228, 228);
+    border-radius: 3px;
+    width: 260px;
+    height: 22px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.inp_sign::placeholder {
+    font-size: 10px;
+}
+
+#login_but {
+    color: white;
+    font-size: 16px;
+    padding: 9px 0 7px 8px;
+    border: none;
+    width: 270px;
+    height: 34px;
+    background-color: rgba(164, 215, 247, 0.76);
+    border-radius: 3px;
+}
+
+#hr_ref {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+    margin-left: 45px;
+}
+
+.hr_class_sign {
+    border-top: 1px solid rgb(233, 228, 228);
+    width: 110px;
+}
+
+#hr1_sign {
+    margin-right: 10px;
+}
+
+#hr2_sign {
+    margin-left: 10px;
+}
+
+#p_sign {
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+#another_signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#fb_sign {
+    color: #385185;
+    font-weight: bold;
+}
+
+#for_pass {
+    color: #00376b;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.fb_flex {
+    display: flex;
+}
+
+#fbimg_sign {
+    height: 18px;
+    margin-top: 14.5px;
+    margin-right: 5px;
+    width: 20px;
+}
+
+#sign_up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main_sign {
+    color: #0095f6;
+    margin-left: 5px;
+}
+
+.p_main {
+    margin-top: 20px;
+}
+
+#app_sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#app_app {
+    height: 40px;
+    margin-right: 6px;
+}
+
+#play_app {
+    height: 40px;
+    margin-left: 6px;
+}
+
+#logo_span,
+#fb_sign,
+#for_pass,
+#main_sign,
+#app_app,
+#play_app:hover {
+    cursor: pointer;
+}
+
+#pass_err {
+    display: none;
+    color: #ED4956;
+    font-size: 14px;
+}
